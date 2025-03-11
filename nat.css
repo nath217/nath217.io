@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0;
+    color: #5a3e36;
+}
+
+/* Header */
+header {
+    background-color: #8d6e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('images/cassava-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.cta-button {
+    background-color: #d84315;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Features */
+#features {
+    text-align: center;
+    padding: 40px;
+}
+
+.feature-box {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature-box img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Pricing */
+#pricing {
+    text-align: center;
+    background-color: #ffcc80;
+    padding: 30px;
+    font-size: 20px;
+}
+
+/* Reviews */
+#reviews {
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+}
+
+/* Contact Form */
+form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5a3e36;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8d6e63;
+    color: white;
+}
